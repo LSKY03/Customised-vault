@@ -1,0 +1,26 @@
+.graph-view.color-fill {
+color: #f1e6fe !important;
+}
+
+/*PER MODIFICARE LA FORZA DELLA LINEA MODIFICARE VALORE .Opacity*/
+.graph-view.color-line {
+color: #a3a0fc !important;
+Opacity:.5;
+}
+
+.graph-view.color-fill-highlight {
+color: #ffb3b4 !important;
+}
+
+.graph-view.color-line-highlight {
+color: #ff1418 !important;
+}
+
+.theme-dark .graph-view.color-fill-tag {
+color: #f1e6fe !important;
+}
+
+.theme-dark .graph-view.color-fill-unresolved {
+color: #f1e6fe !important;
+Opacity:.5;
+}

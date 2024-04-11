@@ -1,0 +1,14 @@
+div.workspace-tab-header.is-active.mod-active {
+  padding: 4px 3px 0px 6px;
+  border-radius: 12px
+}
+
+.workspace .mod-root .workspace-tab-header {
+  padding: 4px 3px 0px 6px;
+  border-radius: 12px
+}
+
+.mod-root .workspace-tab-header-inner {
+  padding: 0px 3px 0 6px;
+  border-radius: 12px
+}

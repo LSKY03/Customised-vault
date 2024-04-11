@@ -1,0 +1,318 @@
+{
+  "main": {
+    "id": "d82802a69ff8270c",
+    "type": "split",
+    "children": [
+      {
+        "id": "504a9ceb5d77b0d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ac8a835d32422120",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "80 - Stuff/Homepage.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c0f5351df6808d6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 - Inbox/Format.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "cbd0a1922046ad79",
+    "type": "split",
+    "children": [
+      {
+        "id": "7cef255652a3a815",
+        "type": "tabs",
+        "dimension": 69.39571150097466,
+        "children": [
+          {
+            "id": "19bc81a356a38d02",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a4abf45d23d4a0a0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "9c725dc7e374840b",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "a2551c88c6b9fdc0",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "4881ed31fc967c43",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "5d9bf09e35eceb32",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "37f684c42f4886dd",
+        "type": "tabs",
+        "dimension": 30.604288499025344,
+        "children": [
+          {
+            "id": "459955cf96c08d30",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "00 - Inbox/Format.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 2,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [
+                    {
+                      "query": "path:\"\"  ",
+                      "color": {
+                        "a": 1,
+                        "rgb": 7571872
+                      }
+                    }
+                  ],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.5146821826664023,
+                  "close": true
+                }
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 286.5
+  },
+  "right": {
+    "id": "6a13b087a1454ad1",
+    "type": "split",
+    "children": [
+      {
+        "id": "ba14bf3d1aa41f83",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b77ef452c6baeee5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00 - Inbox/Format.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d98d7ae059968337",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00 - Inbox/Format.md"
+              }
+            }
+          },
+          {
+            "id": "1971e8cde8cd9824",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00 - Inbox/Format.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f85a81f2264dd5f9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "80 - Stuff/render.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b56db003e84cd55f",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "00 - Inbox/Format.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 262.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": true,
+      "graph:Open graph view": true,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true,
+      "random-note:Open random note": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "c0f5351df6808d6b",
+  "lastOpenFiles": [
+    "80 - Stuff/render.md",
+    "00 - Inbox/Format.md",
+    "80 - Stuff/Homepage.md",
+    "10 - Uni/class I - name of the class.md",
+    "10 - Uni/class III - name of the class.md",
+    "10 - Uni/class II - name of the class.md",
+    "80 - Stuff/Raw.md",
+    "10 - Uni/class I/trial.md",
+    "10 - Uni/class I",
+    "80 - Stuff/Jedi.md",
+    "80 - Stuff/Syntax.md",
+    "80 - Stuff/Sith Lord.md",
+    "80 - Stuff/Rookie.md",
+    "80 - Stuff/Rielaborazione.md",
+    "80 - Stuff/Revisione.md",
+    "80 - Stuff/Padawan.md",
+    "70 - Attachments/banner per Revisione.jpg",
+    "70 - Attachments/banner per Rielaborazione.jpg",
+    "10 - Uni/class II - name of the class.md",
+    "10 - Uni/class III - name of the class.md",
+    "00 - Inbox/corso - fondamenti di neuroscienze cognitive e comportamentali.md",
+    "70 - Attachments/neurons connect - psh.png",
+    "10 - Uni/psicologia sociale/Sociale Lezione 20.md",
+    "10 - Uni/psicologia sociale/Sociale Lezione 21.md",
+    "10 - Uni/psicologia sociale/Sociale Lezione 19.md",
+    "10 - Uni/psicologia sociale/corso - psicologia sociale.md",
+    "10 - Uni/fondamenti di neuroscienze cognitive e comportamentali/corso - fondamenti di neuroscienze cognitive e comportamentali.md",
+    "10 - Uni/fondamenti di neuroscienze cognitive e comportamentali/Fondamenti neuroscienze Lezione 11.md",
+    "70 - Attachments/attivazione visiva aereo callice.png",
+    "70 - Attachments/Pasted image 20240411122136.png",
+    "70 - Attachments/Grill-Spector et al. 2001 - OFM MTN OFL.png",
+    "70 - Attachments/codifica forma - candela farfalla ancora.png",
+    "70 - Attachments/giro fusiforme.png",
+    "70 - Attachments/Pasted image 20240411112500.png",
+    "70 - Attachments/Vuilleumier et al. 2002.png",
+    "10 - Uni/psicologia clinica/Clinica Lezione 17.md",
+    "10 - Uni/psicologia clinica/Clinica Lezione 16.md",
+    "70 - Attachments/predictions vs mismatch response.jpeg.sb-112e2161-hYJH8Q",
+    "70 - Attachments/OCD - aree cerebrali.png.sb-092baf40-CTDwQv",
+    "70 - Attachments/aree cerebrali depressione maggiore.png.sb-092baf40-puHh4L",
+    "70 - Attachments/affidabilità test-retest disturbi di personalità.png.sb-092baf40-fa5I7y",
+    "70 - Attachments/Risultati Taylor & Fiske - 1975.png.sb-092baf40-RR4y4K",
+    "70 - Attachments/Taylor & Fiske.png.sb-092baf40-RuqSil",
+    "70 - Attachments/associazione tratti di personalità.png.sb-092baf40-BTaUSm",
+    "70 - Attachments/fMRI voxels.png.sb-092baf40-PhUWVW",
+    "70 - Attachments/Psicologia clinica.pdf",
+    "40 - Canvas/OCD - 5 fasi.canvas",
+    "40 - Canvas/Jung.canvas",
+    "40 - Canvas/pulsioni.canvas",
+    "40 - Canvas/tipi di regressioni lineari.canvas",
+    "40 - Canvas/Psicometria - indici scale metriche.canvas",
+    "10 - Uni/Untitled.canvas",
+    "40 - Canvas/MetRic 1.canvas",
+    "40 - Canvas/MetRic 12.canvas",
+    "40 - Canvas/MetRic 10.canvas",
+    "40 - Canvas/MetRic 3.canvas"
+  ]
+}

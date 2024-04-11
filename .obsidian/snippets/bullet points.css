@@ -1,0 +1,57 @@
+/* LEVEL 1 */
+.markdown-reading-view ul > li > .list-bullet:after,
+.markdown-source-view.mod-cm6 .HyperMD-list-line-1 .list-bullet:after {
+/* Bullet */
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+} 
+
+/* LEVEL 2 */
+.markdown-reading-view ul > li > ul > li > .list-bullet:after,
+.markdown-source-view.mod-cm6 .HyperMD-list-line-2 .list-bullet:after {
+/* Hollow Bullet */
+	height: 7px;
+	width: 7px;
+	background-color: transparent;
+	border-style: solid;
+	border-radius: 50%;
+	border-width: 1px;
+}
+
+/* LEVEL 3 */
+.markdown-reading-view ul > li > ul > li > ul > li > .list-bullet:after,
+.markdown-source-view.mod-cm6 .HyperMD-list-line-3 .list-bullet:after {
+/* Solid Square */
+	height: 5px;
+	width: 5px;
+	border-radius: 0%;
+	background-color: rgb(89, 89, 89);
+}
+
+.markdown-source-view.mod-cm6 .HyperMD-list-line-3 .list-bullet:after {
+/* Solid Square */
+	height: 7px;
+	width: 7px;
+	border-radius: 0%;
+	background-color: rgb(89, 89, 89);
+} 
+
+/* LEVEL 4 */
+.markdown-reading-view ul > li > ul > li > ul > li > ul > li >.list-bullet:after,
+.markdown-source-view.mod-cm6 .HyperMD-list-line-4 .list-bullet:after {
+/* Triangle */
+  height: 0;
+  width: 0; 
+  background-color: transparent;
+  border-radius: 0%;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid;
+  border-right: 0px solid;
+}
+
+.markdown-rendered ul, .markdown-rendered ol {
+  margin-block-start: -5px;
+  Margin-block-end: 1.5em;
+}

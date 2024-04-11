@@ -1,0 +1,135 @@
+body {
+  /* 引导线粗细 */
+  --outline-guideline-width: var(--setting-outline-guideline-width, 2px);
+  /* 引导线颜色 */
+  --outline-guideline-color: var(--setting-outline-guideline-color, var(--color-accent));
+  /* 一行高度 */
+  --outline-item-height: var(--setting-outline-item-height, 24px);
+}
+
+.workspace-leaf-content[data-type=outline] {
+  --line-height-tight: var(--outline-item-height);
+}
+.workspace-leaf-content[data-type=outline] .tree-item {
+  position: relative;
+}
+.workspace-leaf-content[data-type=outline] .tree-item-self {
+  position: relative;
+  margin-bottom: 0;
+  white-space: nowrap;
+  margin-top: -2px;
+  /* fix item gap */
+}
+.workspace-leaf-content[data-type=outline] .tree-item-self .tree-item-inner {
+  padding-left: var(--size-4-1);
+}
+.workspace-leaf-content[data-type=outline] .tree-item-self .tree-item-inner::before {
+  content: "";
+  width: var(--size-4-1);
+  height: var(--size-4-1);
+  border: var(--size-2-1) solid var(--outline-guideline-color);
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(calc(-1 * var(--size-4-4)), -50%);
+}
+.workspace-leaf-content[data-type=outline] .tree-item-self .tree-item-icon ~ .tree-item-inner {
+  padding-left: var(--size-4-1);
+}
+.workspace-leaf-content[data-type=outline] .tree-item-self .tree-item-icon ~ .tree-item-inner::before {
+  content: none;
+}
+.workspace-leaf-content[data-type=outline] .tree-item.is-collapsed .tree-item-icon::before {
+  box-shadow: 0 0 0 var(--size-4-1) var(--background-modifier-hover);
+}
+.workspace-leaf-content[data-type=outline] .tree-item::after {
+  content: "";
+  width: var(--outline-guideline-width);
+  position: absolute;
+  background-color: transparent;
+  top: calc(var(--outline-item-height) / 2 * -1);
+  left: -14px;
+  height: calc(100% - var(--outline-item-height) + var(--size-4-8));
+}
+.workspace-leaf-content[data-type=outline] .tree-item-icon {
+  cursor: pointer;
+}
+.workspace-leaf-content[data-type=outline] .tree-item-icon::before {
+  width: var(--size-4-2);
+  height: var(--size-4-2);
+  background-color: var(--outline-guideline-color);
+  border-radius: 50%;
+  position: absolute;
+  left: 3px;
+  top: calc(var(--outline-item-height) / 2.5 - var(--size-2-1));
+  z-index: 10;
+}
+.workspace-leaf-content[data-type=outline] .tree-item-icon svg path {
+  display: none;
+}
+.workspace-leaf-content[data-type=outline] .tree-item:hover > .tree-item-children > .tree-item::after {
+  background-color: var(--outline-guideline-color);
+}
+.workspace-leaf-content[data-type=outline] .tree-item:hover > .tree-item-self:hover + .tree-item-children .tree-item::after {
+  background-color: transparent;
+}
+.workspace-leaf-content[data-type=outline] .tree-item:hover > .tree-item-children > .tree-item:hover::after, .workspace-leaf-content[data-type=outline] .tree-item:hover > .tree-item-children > .tree-item:hover ~ .tree-item::after {
+  background-color: transparent;
+}
+.workspace-leaf-content[data-type=outline] .tree-item:hover > .tree-item-children > .tree-item:hover::before {
+  content: "";
+  position: absolute;
+  top: calc(var(--outline-item-height) / 2 * -1);
+  left: -14px;
+  bottom: calc(100% - (var(--outline-item-height) + var(--size-4-2)) / 2 - 1px);
+  width: var(--size-4-6);
+  border-bottom-left-radius: var(--radius-m);
+  border-bottom: var(--outline-guideline-width) solid var(--outline-guideline-color);
+  border-left: var(--outline-guideline-width) solid var(--outline-guideline-color);
+  z-index: 9;
+}
+.workspace-leaf-content[data-type=outline] :is(.tree-item-children, .tree-item-self) {
+  padding-left: 28px !important;
+  margin-left: 0 !important;
+  border-left: none;
+}
+.workspace-leaf-content[data-type=outline] .tree-item-inner:empty {
+  min-height: var(--outline-item-height);
+}
+
+/* @settings
+
+name: LogSeq Outline View Setting
+id: logseq-outline
+settings:
+    -
+        id: setting-outline-guideline-width
+        title: outline guideline width
+        title.zh: 大纲引导线宽度
+        type: variable-number-slider
+        format: px
+        default: 2
+        min: 0
+        max: 4
+        step: 0.2
+    -
+        id: setting-outline-guideline-color
+        title: outline guideline color
+        title.zh: 大纲引导线颜色
+        type: variable-themed-color
+        format: hex
+        opacity: true
+        default-light: '#'
+        default-dark: '#'
+    -
+        id: setting-outline-item-height
+        title: outline item height
+        title.zh: 大纲每一项的高度
+        type: variable-number-slider
+        format: px
+        default: 24
+        min: 13
+        max: 30
+        step: 1
+    -
+*/

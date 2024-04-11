@@ -1,0 +1,94 @@
+/* --------------------------------------------   */
+/* Latex table-layout:                            */
+/* --------------------------------------------   */
+
+.markdown-rendered table {
+	margin-bottom: 20px;
+	margin-block-start: 0px !important;
+}
+
+.theme-light {
+
+.academia table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100% !important;
+	/*max-width: 100%;*/
+	border-top: 2.27px solid black;
+	border-bottom: 2.27px solid black;
+	overflow-x: auto;	
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.academia th,
+.academia td {
+	border: 0 none;
+	padding: 0.51rem;
+	line-height: 1.1;
+}
+.academia table > tbody > tr:first-child > td,
+.academia table > tbody > tr:first-child > th {
+	border-top: 1.36px solid black;
+}
+.academia table > tbody > tr:last-child > td,
+.academia table > tbody > tr:last-child > th {
+	border-bottom: 1.36px solid black;
+}
+.academia thead th {
+    background-color: white !important;
+    font-weight: 700;    
+    padding: 8px 9px 5px 9px;
+}
+.academia tr:nth-child(even) {
+      background-color: #ebecf1 ;
+}
+.academia tbody tr:hover td {
+	background-color: #f5f1da;
+}
+
+}
+
+.theme-dark {
+
+.academia table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 100% !important;
+	/*max-width: 100%;*/
+	border-top: 2.27px solid white;
+	border-bottom: 2.27px solid white;
+	overflow-x: auto;	
+	/*box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);*/
+}
+.academia th,
+.academia td {
+	border: 0 none;
+	padding: 0.51rem;
+	line-height: 1.1;
+}
+.academia table > tbody > tr:first-child > td,
+.academia table > tbody > tr:first-child > th {
+	border-top: 1.36px solid white;
+}
+.academia table > tbody > tr:last-child > td,
+.academia table > tbody > tr:last-child > th {
+	border-bottom: 1.16px solid white;
+}
+.academia thead th {
+    background-color: black !important;
+    font-weight: 700;    
+    padding: 8px 9px 5px 9px;
+}
+.academia tr:nth-child(even) {
+      background-color: #211e00;
+}
+.academia tbody tr:hover td {
+	background-color: #28303d;
+}
+
+.markdown-reading-view table {
+margin block start: 12px;
+}
+
+}
+
+/* --------------------------------------------   */

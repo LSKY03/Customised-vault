@@ -1,0 +1,15 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "semestre": "number",
+    "anno": "number",
+    "ore": "number",
+    "CFU": "number",
+    "prova": "date",
+    "data": "date",
+    "ISBN": "number",
+    "Allegati": "multitext"
+  }
+}

@@ -1,0 +1,14 @@
+.theme-light h1::before {content: "H1 "; color: #000000; font-size: 10px; font-family: var(--font-monospace); margin: 0px 8px 0px -25px;}
+.theme-light h2::before {content: "H2 "; color: #000000; font-size: 10px; font-family: var(--font-monospace); margin: 0px 8px 0px -25px;}
+.theme-light h3::before {content: "H3 "; color: #000000; font-size: 10px; font-family: var(--font-monospace); margin: 0px 8px 0px -25px;}
+.theme-light h4::before {content: "H4 "; color: #000000; font-size: 10px; font-family: var(--font-monospace); margin: 0px 8px 0px -25px;}
+.theme-light h5::before {content: "H5 "; color: #000000; font-size: 10px; font-family: var(--font-monospace); margin: 0px 8px 0px -25px;}
+.theme-light h6::before {content: "H6 "; color: #000000; font-size: 10px; font-family: var(--font-monospace); margin: 0px 8px 0px -25px;}
+
+
+.theme-dark h1::before {content: "H1 "; color: #ffffff; font-size: 10px; font-family: var(--font-monospace); margin: 0px 8px 0px -25px;}
+.theme-dark h2::before {content: "H2 "; color: #ffffff; font-size: 10px; font-family: var(--font-monospace); margin: 0px 8px 0px -25px;}
+.theme-dark h3::before {content: "H3 "; color: #ffffff; font-size: 10px; font-family: var(--font-monospace); margin: 0px 8px 0px -25px;}
+.theme-dark h4::before {content: "H4 "; color: #ffffff; font-size: 10px; font-family: var(--font-monospace); margin: 0px 8px 0px -25px;}
+.theme-dark h5::before {content: "H5 "; color: #ffffff; font-size: 10px; font-family: var(--font-monospace); margin: 0px 8px 0px -25px;}
+.theme-dark h6::before {content: "H6 "; color: #ffffff; font-size: 10px; font-family: var(--font-monospace); margin: 0px 8px 0px -25px;}

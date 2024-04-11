@@ -1,0 +1,29 @@
+/**-------------------**
+| HR STYLES
+**--------------------**/
+
+/** hr styles -- PREVIEW MODE */
+.cm-line hr,
+.markdown-preview-view hr {
+  margin-block-start: 2em;
+  margin-block-end: 2em;
+  border: none;
+  height: 0;
+  border-bottom: 1px solid;
+  border-image-slice: 1;
+  border-width: 1px;
+  border-image-source: linear-gradient(to right, transparent, #9BB7C0, transparent);
+}
+
+.cm-line hr::after,
+.markdown-preview-view hr::after {
+  content: '🝩';
+  display: inline-block;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-origin: 50% 50%;
+  padding: 0.3rem;
+  color: var(--text-sub-accent);
+  background-color: var(--background-primary);
+}

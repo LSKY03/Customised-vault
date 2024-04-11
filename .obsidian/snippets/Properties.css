@@ -1,0 +1,50 @@
+/*
+@media screen and (min-width: 1024px)  {
+    .view-content {         
+        .metadata-container {             
+            max-height: 2.7rem;             
+            opacity: 0.4;             
+            overflow: hidden;             
+            transition: max-height 250ms ease-in-out, opacity 250ms;
+            margin-bottom: 0;  
+       }
+        .metadata-container:hover {
+             max-height: 1000px;
+             opacity: 1;
+             transition: max-height 300ms ease-in-out,
+             opacity 300ms;         
+	     transition-delay: 0.5s;
+        }     
+    } 
+}
+*/
+
+.obsidian-banner-wrapper {
+	margin-top: 15em;
+}
+
+.view-content {
+	.metadata-container {
+		margin-bottom: 0px !important;
+	}
+}
+.obsidian-banner-icon {
+	position: relative;
+	top: -10px;
+}
+
+/*
+.obsidian-banner-wrapper {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+
+.mod-header:has(+ .obsidian-banner-wrapper) {
+	margin-top: var(--banner-height);
+}
+
+.obsidian-banner-icon {
+	position: relative;
+	top: -125px;
+}
+*/

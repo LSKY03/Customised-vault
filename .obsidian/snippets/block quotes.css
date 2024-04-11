@@ -1,0 +1,68 @@
+/* blockqoutes
+*/
+
+.markdown-preview-view blockquote {
+	color: var(--text-faint);
+	background: var(--background-primary);
+	box-shadow: var(--shadow-s);
+
+	position: relative;
+
+	padding: 18px 28px 18px 36px;
+	margin: 14px 0;
+
+	border: var(--o-border);
+	border-radius: 8px;
+	transition: all 0.5s cubic-bezier(0.25, 0.46, 0.46, 0.95);
+}
+
+.markdown-preview-view blockquote:hover {
+	color: var(--text-faint);
+	background: var(--background-primary);
+	box-shadow: var(--shadow-s);
+
+	position: relative;
+
+	padding: 18px 28px 18px 36px;
+	margin: 14px 0;
+
+	border: 1px solid var(--color-accent);
+	transform: translateY(4px);
+}
+
+.markdown-preview-view blockquote::before {
+	content: "";
+
+	height: calc(100% - 30px);
+	width: 3px;
+
+	background: var(--color-accent);
+
+	position: absolute;
+	top: 15px;
+	left: 15px;
+
+	border-radius: var(--button-radius);
+}
+
+.markdown-source-view.mod-cm6.is-live-preview .HyperMD-quote::before,
+.markdown-source-view.mod-cm6 .cm-blockquote-border::before {
+	display: block;
+	content: "\200b";
+
+	width: 1px;
+
+	color: transparent;
+
+	position: absolute;
+	top: 0;
+	bottom: 0;
+
+	border-left:
+		var(--blockquote-border-thickness) solid
+		var(--background-secondary);
+}
+
+.markdown-preview-view blockquote::before {
+	display: none;
+}

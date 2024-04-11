@@ -1,0 +1,34 @@
+/* Obsidian snippet to style output of pdf exports*/
+
+@media print {
+  h1, h2, h3, h4, h5, h6 {
+    page-break-after: avoid;
+  }
+  pre, blockquote {
+    page-break-inside: avoid;
+  }
+  table, figure {
+    page-break-inside: avoid;
+  }
+  div.callout {
+    page-break-inside: auto;
+  }
+  table, img, svg {
+    break-inside: avoid;
+  }
+
+.academia table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: auto !important;
+	max-width: 100%;
+}
+
+@page {
+  margin-left: 1cm;
+  margin-right: 1cm;
+  margin-top: 1cm;
+  margin-bottom: 1cm;
+}
+
+}

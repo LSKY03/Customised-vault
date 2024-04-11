@@ -1,0 +1,121 @@
+{
+  "collapse-filter": true,
+  "search": "-path:Templates",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "tag:#🗺️MOC",
+      "color": {
+        "a": 1,
+        "rgb": 13125190
+      }
+    },
+    {
+      "query": "tag:#malattia",
+      "color": {
+        "a": 1,
+        "rgb": 10048224
+      }
+    },
+    {
+      "query": "tag:#indagine",
+      "color": {
+        "a": 1,
+        "rgb": 5161798
+      }
+    },
+    {
+      "query": "tag:#sostanza",
+      "color": {
+        "a": 1,
+        "rgb": 5161798
+      }
+    },
+    {
+      "query": "tag:#cellulare",
+      "color": {
+        "a": 1,
+        "rgb": 5161798
+      }
+    },
+    {
+      "query": "tag:#anatomia",
+      "color": {
+        "a": 1,
+        "rgb": 5161798
+      }
+    },
+    {
+      "query": "tag:#percezioneattenzione",
+      "color": {
+        "a": 1,
+        "rgb": 14715730
+      }
+    },
+    {
+      "query": "tag:#psigen",
+      "color": {
+        "a": 1,
+        "rgb": 14715730
+      }
+    },
+    {
+      "query": "tag:#orbit",
+      "color": {
+        "a": 1,
+        "rgb": 15231198
+      }
+    },
+    {
+      "query": "tag:#psicometria",
+      "color": {
+        "a": 1,
+        "rgb": 13369443
+      }
+    },
+    {
+      "query": "tag:#metodi",
+      "color": {
+        "a": 1,
+        "rgb": 14794592
+      }
+    },
+    {
+      "query": "tag:#bio",
+      "color": {
+        "a": 1,
+        "rgb": 1275207
+      }
+    },
+    {
+      "query": "tag:#dinamica",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:\"10 - Uni\"",
+      "color": {
+        "a": 1,
+        "rgb": 2461095
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": false,
+  "textFadeMultiplier": 0,
+  "nodeSizeMultiplier": 1,
+  "lineSizeMultiplier": 0.437403686725836,
+  "collapse-forces": true,
+  "centerStrength": 0.334391276041667,
+  "repelStrength": 10.107421875,
+  "linkStrength": 1,
+  "linkDistance": 294,
+  "scale": 0.13779788191989567,
+  "close": true
+}

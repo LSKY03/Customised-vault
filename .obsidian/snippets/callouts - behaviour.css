@@ -1,0 +1,47 @@
+/* callouts
+*/
+
+.theme-dark {
+.callout {
+	/* background: rgba(var(--callout-color), 0.05); */
+	background: linear-gradient(135deg, rgba(var(--callout-color), 0.15), var(--background-primary));
+	position: relative;
+	border: 1px solid rgba(var(--callout-color), 0.1);
+}
+
+
+/*questo pezzo riguarda il titolo, dovrei cercare di capire come togliere il padding che c'è*/
+.callout-title {
+	background: var(--background-primary);
+	border: 0.9px solid rgba(var(--callout-color), 0.40);
+	padding: 1px;
+	border-radius: 8px;
+	margin-bottom: 10px;
+	box-shadow:
+    -14px 14px 39px -3px rgba(var(--callout-color), 0.20);
+}
+
+.callout-title-inner {
+	padding-top: 3px
+}
+
+}
+
+/*questo pezzo serve durante l'animazione, la rende smooth invece che essere uno scatto*/
+.markdown-preview-view .callout {
+	box-shadow: var(--shadow-s);
+
+	position: relative;
+
+	padding: 18px 28px 10px 30px;
+	margin-bottom: 24px;
+
+	border-radius: 10px;
+	transition: all 0.5s cubic-bezier(0.25, 0.46, 0.46, 0.95);
+}
+
+
+/*con questo quando ci si va sopra il contorno si colora del colore del callout*/
+.callout:hover {
+	border: 1px solid rgb(var(--callout-color));
+} 

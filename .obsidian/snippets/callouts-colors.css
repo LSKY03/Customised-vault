@@ -1,0 +1,168 @@
+.theme-dark {
+
+.callout[data-callout="important"] {  
+   --callout-color: 191, 90, 242;
+   --callout-icon: lucide-gem;
+}
+
+.callout[data-callout="warning"] {
+    --callout-color: 255, 159, 10;
+    --callout-icon: lucide-shield-alert;
+}
+
+.callout[data-callout="quote"] {  
+   --callout-color: 106, 196, 220;
+}
+
+.callout[data-callout="nomenclatura"] { 
+   --callout-color: 172, 142, 104;
+   --callout-icon: lucide-languages;
+}
+
+.callout[data-callout="danger"] {  
+   --callout-color: 255, 69, 58;
+}
+
+.callout[data-callout="done"] {  
+   --callout-color: 100, 221, 23;
+}
+
+.callout[data-callout="question"] {  
+   --callout-color: 255, 214, 10;
+}
+
+.callout[data-callout="bookcheck"] {  
+   --callout-color: 100, 221, 23;
+   --callout-icon: lucide-book-open-check;
+}
+
+.callout[data-callout="example"] {  
+   --callout-icon: lucide-list-checks;
+}
+
+.callout[data-callout="forgia"] {  
+   --callout-color: 255, 87, 34;
+   --callout-icon: lucide-hammer;
+}
+
+.callout[data-callout="tldr"] {  
+   --callout-icon: lucide-wand-2;
+   --callout-color: 
+}
+
+.callout[data-callout="info"] {  
+   --callout-color: 90, 200, 245;
+}
+
+.callout[data-callout="definition"] {  
+   --callout-color: 10, 132, 255;
+   --callout-icon: lucide-key;
+}
+
+.callout[data-callout="mastery"] {
+   --callout-color: 180, 214, 211;
+   --callout-icon: swords;
+}
+
+.callout[data-callout="math"] {
+   --callout-color: 223, 228, 222;
+   --callout-icon: lucide-sigma;
+}
+
+.callout[data-callout="experiment"] {
+   --callout-color: 115, 136, 165;
+   --callout-icon: flask-conical;
+}
+
+.callout[data-callout="diagnosi"] {
+    --callout-color: 102, 212, 207;
+    --callout-icon: stethoscope;
+}
+
+}
+
+
+.theme-light {
+
+.callout[data-callout="important"] {  
+   --callout-color: 175, 82, 222;
+   --callout-icon: lucide-gem;
+}
+
+.callout[data-callout="warning"] {
+    --callout-color: 255, 149, 0;
+    --callout-icon: lucide-shield-alert;
+}
+
+.callout[data-callout="quote"] {  
+   --callout-color: 89, 173, 196;
+}
+
+.callout[data-callout="nomenclatura"] {  
+   --callout-color: 162, 132, 94;
+   --callout-icon: lucide-languages;
+}
+
+.callout[data-callout="danger"] {  
+   --callout-color: 255, 59, 48;
+}
+
+.callout[data-callout="done"] {  
+   --callout-color: 40, 205, 65;
+}
+
+.callout[data-callout="question"] {  
+   --callout-color: 255, 204, 0;
+}
+
+.callout[data-callout="bookcheck"] {  
+   --callout-color: 100, 221, 23;
+   --callout-icon: lucide-book-open-check;
+}
+
+.callout[data-callout="example"] {  
+   --callout-icon: lucide-list-checks;
+   --callout-color: 220, 140, 240;
+}
+
+.callout[data-callout="forgia"] {  
+   --callout-color: 255, 27, 0;
+   --callout-icon: lucide-hammer;
+}
+
+.callout[data-callout="tldr"] {  
+   --callout-icon: lucide-wand-2;
+   --callout-color: 
+}
+
+.callout[data-callout="info"] {  
+   --callout-color: 85, 190, 240;
+}
+
+.callout[data-callout="definition"] {  
+   --callout-color: 0, 122, 255;
+   --callout-icon: lucide-key;
+}
+
+.callout[data-callout="mastery"] {
+   --callout-color: 47, 47, 47;
+   --callout-icon: swords;
+}
+
+.callout[data-callout="math"] {
+   --callout-color: 70, 70, 70;
+   --callout-icon: lucide-sigma;
+}
+
+.callout[data-callout="experiment"] {
+   --callout-color: 113, 123, 161;
+   --callout-icon: flask-conical;
+
+}
+
+.callout[data-callout="diagnosi"] {
+    --callout-color: 0, 199, 190;
+    --callout-icon: stethoscope;
+}
+
+}

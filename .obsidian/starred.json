@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "title": "Arte MOC",
+      "path": "Arte/Arte MOC.md"
+    },
+    {
+      "type": "file",
+      "title": "Storia MOC",
+      "path": "Storia/Storia MOC.md"
+    },
+    {
+      "type": "file",
+      "title": "Biologia MOC",
+      "path": "Biologia/Biologia MOC.md"
+    },
+    {
+      "type": "file",
+      "title": "Filosofia MOC",
+      "path": "Filosofia/Filosofia MOC.md"
+    },
+    {
+      "type": "file",
+      "title": "Neuroscienze MOC",
+      "path": "Neuroscienze/Neuroscienze MOC.md"
+    },
+    {
+      "type": "file",
+      "title": "elementi cerebrali MOC",
+      "path": "Neuroscienze/elementi cerebrali MOC.md"
+    },
+    {
+      "type": "file",
+      "title": "3D map",
+      "path": "3D map.md"
+    },
+    {
+      "type": "file",
+      "title": "UNI Pronti",
+      "path": "UNI Pronti.md"
+    },
+    {
+      "type": "file",
+      "title": "Libri",
+      "path": "30 - Books/Libri.md"
+    }
+  ]
+}

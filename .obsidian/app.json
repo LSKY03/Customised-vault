@@ -1,0 +1,31 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "promptDelete": false,
+  "attachmentFolderPath": "70 - Attachments",
+  "alwaysUpdateLinks": true,
+  "communityThemeSortOrder": "release",
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "2",
+    "downscalePercent": 100
+  },
+  "spellcheck": true,
+  "defaultViewMode": "preview",
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "rightToLeft": false,
+  "showFrontmatter": false,
+  "showLineNumber": false,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "00 - Inbox",
+  "showInlineTitle": false,
+  "userIgnoreFilters": [
+    "20 - Journal/",
+    "30 - Books/Papers/"
+  ],
+  "showIndentGuide": true,
+  "propertiesInDocument": "hidden"
+}

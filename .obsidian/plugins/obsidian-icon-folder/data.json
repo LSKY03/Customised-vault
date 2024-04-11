@@ -1,0 +1,42 @@
+{
+  "settings": {
+    "migrated": 4,
+    "iconPacksPath": ".obsidian/plugins/obsidian-icon-folder/icons",
+    "fontSize": 16,
+    "emojiStyle": "none",
+    "iconColor": null,
+    "recentlyUsedIcons": [
+      "RiMarkPenLine",
+      "RiComputerLine",
+      "RiGitBranchFill",
+      "FabGalacticSenate",
+      "LiGitMerge"
+    ],
+    "recentlyUsedIconsSize": 5,
+    "rules": [],
+    "extraMargin": {
+      "top": 0,
+      "right": 4,
+      "bottom": 0,
+      "left": 0
+    },
+    "iconInTabsEnabled": false,
+    "iconsBackgroundCheckEnabled": false,
+    "iconInTitleEnabled": false,
+    "iconInFrontmatterEnabled": false,
+    "iconsInNotesEnabled": true,
+    "iconIdentifier": ":",
+    "iconsInLinksEnabled": true,
+    "debugMode": false
+  },
+  "00 - Inbox": "LiInbox",
+  "10 - Uni": "RiComputerLine",
+  "30 - Books": "RiBookOpenLine",
+  "40 - Canvas": "LiGitBranchPlus",
+  "70 - Attachments": "LiImage",
+  "80 - Stuff": "RiBriefcaseLine",
+  "90 - Templates": "RiFilePaper2Line",
+  "Kanban.md": "LiGitMerge",
+  "20 - Fusion": "RiGitBranchFill",
+  "40 -  Canvas": "RiMarkPenLine"
+}

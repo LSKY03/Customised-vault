@@ -1,0 +1,161 @@
+{
+  "main": {
+    "id": "d82802a69ff8270c",
+    "type": "split",
+    "children": [
+      {
+        "id": "e8cc9945016e0336",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ce60a8cdf30d15b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "10 - Uni/metodi della ricerca in psicologia.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "183e2e40c1c69c75",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "ebaa98a164418886",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "d869cc0e9f585489",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "d07e81bbfc073fbc",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "b94c0d13fe7a6db1",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "f93d174ad9d46e2c",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "10 - Uni/metodi della ricerca in psicologia.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "a7a76a4124289e45",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "10 - Uni/metodi della ricerca in psicologia.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "154570fde6703f01",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "10 - Uni/metodi della ricerca in psicologia.md"
+          }
+        }
+      },
+      {
+        "id": "909546b817c82a62",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "templater-obsidian:Templater": false,
+      "cmdr:Commit": false,
+      "cmdr:Push": false,
+      "omnisearch:Omnisearch": false
+    }
+  },
+  "active": "ce60a8cdf30d15b7",
+  "lastOpenFiles": [
+    "10 - Uni/Metodologia Lezione 3.md",
+    "10 - Uni/metodi della ricerca in psicologia.md",
+    "10 - Uni/Metodologia lezione 1.md",
+    "Homepage.md",
+    "10 - Uni/metodi quantitativi per le scienze della vita.md",
+    "10 - Uni/filosofia della scienza.md",
+    "10 - Uni/BasiBio Lezione 5.md",
+    "UNI Pronti.md",
+    "10 - Uni/PercAtt Lezione 7.md",
+    "10 - Uni/PsiGen Lezione 7.md",
+    "10 - Uni/PercAtt Lezione 6.md",
+    "10 - Uni/BasiBio Lezione 4.md",
+    "10 - Uni/PsiGen Lezione 6.md",
+    "10 - Uni/PercAtt Lezione 5.md",
+    "10 - Uni/PsiGen Lezione 5.md",
+    "10 - Uni/PsiGen Lezione 4.md",
+    "10 - Uni/PercAtt Lezione 4.md"
+  ]
+}
